@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LittleBigKeebs - Purchase Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo"><a href="homepage.html"><img src="assets/logo2.png" alt="logo"></a></div>
+        <div class="nav-items">
+            <a href="store.html">Store</a>
+            <a href="about.html">About</a>
+        </div>
+    </nav>
+
+    <div class="marq">
+        <marquee behavior="" direction="left">
+            <div class="marquee">
+                <p>Special discount for new member up to 50%!!! &nbsp;</p> 
+                <p>Coming soon : Ambarakakeebs Keycaps set, stay tune!! &nbsp;</p>
+                <p>New Arrival : VOYAGER68 v2 Lite, get it now!!! &nbsp;</p> 
+                <p>Flash Sale !!! VOYAGER70 v1 Full Discount 42% &nbsp;</p> 
+            </div>    
+        </marquee>
+    </div>
+
+
+    <main class="content-wrapper">
+        <section class="form-container">
+            <form id="purchaseForm">
+                <h2>Purchase Form</h2> <br>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="address">Address:</label>
+                <textarea id="address" name="address" required></textarea><br><br>
+
+                <label for="product">Product:</label>
+                <select id="product" name="product">
+                    <option value="Voyager68 V2">Voyager68 V2</option>
+                    <option value="APOLLO61 Lite">APOLLO61 Lite 60%</option>
+                    <option value="PPBT SHIRAKAWA Keycap Set">PPBT SHIRAKAWA Keycap Set</option>
+                    <option value="Blue Samurai PBT Dye Sub Keycaps">Blue Samurai PBT Dye Sub Keycaps</option>
+                    </select><br><br>
+
+                <button type="submit">Submit Order</button>
+            </form>
+        </section>
+    </main>
+    <br><br><br><br>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3 class="logo"><a href="homepage.html"><img src="assets/logo2.png" alt=""></a></h3>
+                </div>
+                <div class="footer-column">
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="about.html">Contact Us</a></li>
+                        <li><a href="store.html">Store</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            <p>&copy; 2024 LittleBigKeebs</p>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
